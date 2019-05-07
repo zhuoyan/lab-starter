@@ -31,7 +31,7 @@ steps:
   actions:
   - type: gate
     left: '%payload.pull_request.title%'
-                  # you can execute multiple actions in the `before` block
+    operator: ===
                   #
   # - type:
   #   option:
