@@ -17,7 +17,7 @@ template:
 
 before:
 - type: createIssue
-                # some actions require additional options, those should appear below `type:`
+  title: Welcome
   body: welcome-text.md
 
 # Steps for the course
