@@ -34,7 +34,7 @@ steps:
     operator: ===
     right: Add name to README
   - type: respond
-  #   option:
+    with: pr-opened.md
   #
   # - type:
   #   option:
